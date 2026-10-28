@@ -1,0 +1,49 @@
+# ===== Unity 기본 =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# ===== IDE (Visual Studio 등) =====
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ===== 빌드 결과물 =====
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# ===== Unity Version Control(Plastic) 설정 =====
+.plastic/
+ignore.conf
+
+# ===== LLM 모델 · LLMUnity 빌드 (GitHub 100MB 제한 초과) =====
+*.gguf
+*.gguf.meta
+/LLMUnityBuild/
+/[Aa]ssets/StreamingAssets/*.gguf
